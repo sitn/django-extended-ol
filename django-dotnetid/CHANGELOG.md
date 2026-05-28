@@ -1,3 +1,7 @@
+## 1.1.2
+
+- Support list and string in groups parsing
+
 ## 1.1.1
 
 - Changed minimum python version
