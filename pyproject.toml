@@ -18,7 +18,7 @@ django-extended-ol = "^1.2.2"
 django-allauth = "^65.13.1"
 pyjwt = "^2.10.1"
 cryptography = "^46.0.3"
-django-dotnetid = "^1.0.0"
+django-dotnetid = "^1.2.0"
 
 
 [build-system]
