@@ -1,3 +1,7 @@
+## 1.2.0
+
+- Now on every login, groups are re-synchronized and admin privileges checked
+
 ## 1.1.2
 
 - Support list and string in groups parsing
