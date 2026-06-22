@@ -38,9 +38,11 @@ class DotnetIdAccountAdapter(DefaultSocialAccountAdapter):
 
         # Admin rights
         is_admin = social_account.extra_data.get(admin_attr) == 'True'
-        if user.is_staff != is_admin or user.is_superuser != is_admin:
-            user.is_staff = is_admin
+        if user.is_superuser != is_admin:
             user.is_superuser = is_admin
+            
+        if is_admin:
+            user.is_staff = True
 
         # Groups
         raw_groups = social_account.extra_data.get(groups_attr, '')

@@ -1,3 +1,7 @@
+## 1.2.1
+
+- is_staff is no longer tied with is_admin
+
 ## 1.2.0
 
 - Now on every login, groups are re-synchronized and admin privileges checked
